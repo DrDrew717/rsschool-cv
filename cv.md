@@ -26,10 +26,36 @@ Environmental researcher with a background in sustainability and ecological data
 * VS Code, Git
 
 ## Code Example
+**"Dot Calculator"** task from www.codewars.com
+> You have to write a calculator that receives strings for input. The dots will represent the number in the equation. There will be dots on one side, an operator, and dots again after the operator. The dots and the operator will be separated by one space.
 ```
-function multiply(a, b){
-  return a * b;
-}
+function dotCalculator(equation) {
+    let result = '';
+    let a = 0;
+    let b = 0;
+    let sum = 0;
+
+    for (i = 0; equation[i] !== ' '; i++) a = a + 1;
+  
+    for (i = equation.length - 1; equation[i] !== ' '; i--) b = b + 1;
+
+    for (i = 0; i < (a + 2); i++) {
+      if (equation[i] === '+') {
+        sum = a + b;
+      } else if (equation[i] === '-') {
+        sum = a - b;
+      } else if (equation[i] === '*') {
+        sum = a * b;
+      } else if (equation[i] === '/') {
+        sum = Math.floor(a / b);
+      } else {
+        sum = 0;
+      }
+    }
+
+    result = '.'.repeat(sum);   
+    return result;
+  }
 ```
 
 ## Languages
