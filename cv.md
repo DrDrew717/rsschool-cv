@@ -1,4 +1,5 @@
 # Andrei Ivanov
+![Avatar](https://avatars.githubusercontent.com/u/211639598?s=192&v=4)
 
 ## Contact information
 * **Location:** Bishkek, Kyrgyzstan
