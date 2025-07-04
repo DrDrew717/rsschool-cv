@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d7d7d7;
+  border: 1px solid red;
+  font: 300 16px Montserrat;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #e7ee64;
+}
+
+.header {
+  border: 1px solid black;
+  background-color: #ee6497;
+}
+
+.main {
+  border: 1px solid black;
+  background-color: #6dba72;
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: #b3ade7;
+}
+
+.contacts {
+  border: 1px solid rgb(31, 209, 49);
+  background-color: whitesmoke;
+}
+
+.summary {
+  border: 1px solid rgb(31, 209, 49);
+  background-color: whitesmoke;
+}
+
+.education {
+  border: 1px solid rgb(31, 209, 49);
+  background-color: whitesmoke;
+}
+
+.experience {
+  border: 1px solid rgb(31, 209, 49);
+  background-color: whitesmoke;
+}
+
+.skills {
+  border: 1px solid rgb(31, 209, 49);
+  background-color: whitesmoke;
+}
+
+.code-example {
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+.languages {
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.avatar {
+  border: 7px solid #fecb02;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.code {
+  border: 1px solid yellow;
+  background-color: azure;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.surname {
+  font-weight: 500;
+  font-size: 30px;
+}
