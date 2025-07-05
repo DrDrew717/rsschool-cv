@@ -25,6 +25,19 @@ ul {
   list-style-type: none;
 }
 
+li {
+  padding: 0 0 8px 0;
+}
+
+strong {
+  font-weight: 500;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -75,6 +88,11 @@ ul {
 
 .footer {
   background-color: #fecb02;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  flex-direction: row;
+  font-weight: 600;
 }
 
 .contacts {
@@ -140,11 +158,10 @@ ul {
 }
 
 .code {
-  border: 1px solid yellow;
-  background-color: azure;
+  background-color: #ebebeb;
   font-size: 14px;
   margin: 20px;
-  padding: 20px;
+  padding: 0px;
 }
 
 .surname {
@@ -160,11 +177,30 @@ ul {
 
 .institution {
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .occupation {
   font-style: italic;
-  line-height: 0;
   text-transform: none;
+  line-height: 0;
+}
+
+.github-logo {
+  margin: 0 10px 0 20px;
+  width: ;
+}
+
+.my-github {
+  margin: 0 330px 0 0px; 
+}
+
+.year {
+  margin: 0 300px 0 0;
+  width: ;
+}
+
+.rss-logo {
+  margin: 0 20px 0 65px;
+  width: ;
 }
