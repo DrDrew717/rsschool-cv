@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font: 300 15px Montserrat, sans-serif;
@@ -13,6 +17,7 @@ h1 {
   margin: 0 0 5px 0;
   font-weight: 700;
   font-size: 30px;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -118,6 +123,7 @@ strong {
   border-left: 14px solid #fecb02;
   font-weight: 500;
   font-size: 16px;
+  text-transform: uppercase;
   background-color: rgba(241, 241, 241, 0.1);
   box-shadow: 0 1px 0 rgba(241, 241, 241, 0.2);
 }
@@ -127,6 +133,7 @@ strong {
   padding: 6px 40px;
   font-weight: 500;
   font-size: 16px;
+  text-transform: uppercase;
   background-color: #f1f1f1;
 }
 
@@ -190,12 +197,14 @@ strong {
 .surname {
   font-weight: 500;
   font-size: 30px;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .profession {
   font-weight: 300;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .institution {
@@ -249,6 +258,8 @@ strong {
 }
 
 .url-navigation {
+  font-weight: 300;
+  line-height: 50px;
   text-decoration: none;
   color: #9b9b9b;
 }
