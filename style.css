@@ -3,27 +3,27 @@
 }
 
 body {
-  background-color: #d7d7d7;
-  font: 300 15px Montserrat;
   margin: 0;
+  font: 300 15px Montserrat, sans-serif;
+  background-color: #d7d7d7;
 }
 
 h1 {
-  margin: 0 0 5px 0;
   padding: 0;
+  margin: 0 0 5px 0;
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 2px;
 }
 
 h2 {
-  margin: 0;
-  padding: 0;   
+  padding: 0;
+  margin: 0;  
 }
 
 h3 {
-  margin: 5px 0 5px 0;
   padding: 0;
+  margin: 5px 0 5px 0;
   font-weight: 500;
 }
 
@@ -37,21 +37,6 @@ li {
 
 strong {
   font-weight: 400;
-}
-
-.url-black {
-  color: #000000;
-  text-decoration: none;
-}
-
-.url-white {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.url-navigation {
-  color: rgb(155, 155, 155);;
-  text-decoration: none;
 }
 
 .container {
@@ -70,35 +55,20 @@ strong {
   background-color: #ffffff;
 }
 
-.left-side{
+.header-left-side{
   display: flex;
   align-items: center;
   justify-content: center; 
-  width: 35%;
+  width: 350px;
   height: 330px;
   background-color: #1b1e2f;
 }
 
-.right-side {
+.header-right-side {
   display: flex;
   flex-direction: column;
   width: 650px;
   height: 330px;
-}
-
-.name-profession {
-  display: flex;
-  flex-direction: column;
-  width: 650px;
-  height: 180px;
-  border-left: 14px solid #fecb02;
-  background-color: #ebebeb;
-  padding: 52px 40px;
-}
-
-.subcontainer {
-  display: flex;
-  flex-direction: row;
 }
 
 .navigation {
@@ -106,35 +76,58 @@ strong {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 75px;
   width: 650px;
+  height: 75px;
   padding: 0;
   margin: 0;
 }
 
 .navi-list {
-  font-size: 15px;
-  color: rgb(155, 155, 155);
   margin: 55px 7px 0 7px;
+  font-size: 15px;
+  color: #9b9b9b;
+}
+
+.name-profession {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 180px;
+  padding: 52px 40px;
+  border-left: 14px solid #fecb02;
+  background-color: #ebebeb;
+}
+
+.main-aside {
+  display: flex;
+  flex-direction: row;
 }
 
 .main {
-  width: 65%;
+  width: 650px;
   background-color: #ffffff;
 }
 
 .aside {
-  width: 35%;
+  width: 350px;
   background-color: #1b1e2f;
 }
 
-.footer {
-  background-color: #fecb02;
-  display: flex;
-  align-items: center;
-  height: 50px;
-  flex-direction: row;
-  font-weight: 600;
+.section-title-left {
+  padding: 6px 30px;
+  border-left: 14px solid #fecb02;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgba(241, 241, 241, 0.1);
+  box-shadow: 0 1px 0 rgba(241, 241, 241, 0.2);
+}
+
+.section-title-right {
+  border-left: 14px solid #fecb02;
+  padding: 6px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f1f1f1;
 }
 
 .contacts {
@@ -181,40 +174,23 @@ strong {
   background-color: #ffffff;
 }
 
-.section-title-left {
-  border-left: 14px solid #fecb02;
-  box-shadow: 0 1px 0 rgba(241, 241, 241, 0.2);
-  padding: 6px 30px;
-  font-weight: 500;
-  font-size: 16px;
-  background-color: rgba(241, 241, 241, 0.1);
-}
-
-.section-title-right {
-  border-left: 14px solid #fecb02;
-  padding: 6px 40px;
-  font-weight: 500;
-  font-size: 16px;
-  background-color: rgb(241, 241, 241);
-}
-
 .avatar {
+  margin: 20px auto;
   border: 7px solid #fecb02;
   border-radius: 50%;
-  margin: 20px auto;
 }
 
 .code {
-  background-color: #ebebeb;
-  font-size: 14px;
-  margin: 20px;
   padding: 0px;
+  margin: 20px;
+  font-size: 14px;
+  background-color: #ebebeb;
 }
 
 .surname {
-  letter-spacing: 2px;
   font-weight: 500;
   font-size: 30px;
+  letter-spacing: 2px;
 }
 
 .profession {
@@ -231,6 +207,15 @@ strong {
   font-style: italic;
   text-transform: none;
   line-height: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  background-color: #fecb02;
 }
 
 .github-logo {
@@ -251,4 +236,19 @@ strong {
 
 .scale {
   padding: 5px 0 8px 0;
+}
+
+.url-black {
+  text-decoration: none;
+  color: #000000;
+}
+
+.url-white {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.url-navigation {
+  text-decoration: none;
+  color: #9b9b9b;
 }
