@@ -88,12 +88,24 @@ strong {
 }
 
 .navi-list {
-  margin: 55px 7px 0 7px;
+  padding: 55px 0 5px 0;
   font-size: 15px;
   color: #9b9b9b;
 }
 
-.name-profession {
+.navi-link {
+  padding: 0 7px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #9b9b9b;
+  transition: 0.7s ease;
+}
+
+.navi-link:hover {
+  color: #000000;
+}
+
+.name-profession-box {
   display: flex;
   flex-direction: column;
   width: 650px;
@@ -103,7 +115,7 @@ strong {
   background-color: #ebebeb;
 }
 
-.main-aside {
+.main-aside-box {
   display: flex;
   flex-direction: row;
 }
@@ -229,10 +241,20 @@ strong {
 
 .github-logo {
   margin: 0 10px 0 20px;
+  transition: 0.7s ease;
+}
+
+.github-logo:hover {
+  transform: scale(1.05);
 }
 
 .my-github {
   margin: 0 330px 0 0px; 
+  transition: 0.7s ease;
+}
+
+.my-github:hover {
+  text-shadow: 2px 2px 3px #00000050;
 }
 
 .year {
@@ -241,25 +263,38 @@ strong {
 
 .rss-logo {
   margin: 0 20px 0 65px;
+  transition: 0.7s ease;
 }
 
-.scale {
+.rss-logo:hover {
+  transform: scale(1.05);
+}
+
+.scale-img {
   padding: 5px 0 8px 0;
 }
 
-.url-black {
+.black-link {
   text-decoration: none;
   color: #000000;
 }
 
-.url-white {
+.white-link {
   text-decoration: none;
   color: #ffffff;
+  transition: 0.7s ease;
 }
 
-.url-navigation {
-  font-weight: 300;
-  line-height: 50px;
+.white-link:hover {
+  color: #fecb02;
+}
+
+.codewars-link {
   text-decoration: none;
-  color: #9b9b9b;
+  color: #000000;
+  transition: 0.7s ease;
+}
+
+.codewars-link:hover {
+  color: #b30000;
 }
