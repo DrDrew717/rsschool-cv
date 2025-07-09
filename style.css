@@ -133,13 +133,23 @@ strong {
 }
 
 .section-title-left {
+  position: relative;
   padding: 6px 30px;
   border-left: 14px solid #fecb02;
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
   background-color: rgba(241, 241, 241, 0.1);
-  box-shadow: 0 1px 0 rgba(241, 241, 241, 0.2);
+}
+
+.section-title-left::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.1);
 }
 
 .section-title-right {
@@ -239,7 +249,7 @@ strong {
 
 .github-logo {
   margin: 0 10px 0 20px;
-  transition: scale 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .github-logo:hover {
@@ -261,7 +271,7 @@ strong {
 
 .rss-logo {
   margin: 0 20px 0 65px;
-  transition: scale 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .rss-logo:hover {
