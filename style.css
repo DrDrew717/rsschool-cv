@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font: 300 15px Montserrat, sans-serif;
+  background-color: #d7d7d7;
+}
+
+h1 {
+  padding: 0;
+  margin: 2px 0 5px 0;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;  
+}
+
+h3 {
+  padding: 0;
+  margin: 5px 0 5px 0;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0 0 10px 0;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.33);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.header-left-side {
+  width: 350px;
+  height: 330px;
+  background-color: #1b1e2f;
+}
+
+.header-right-side {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 330px;
+}
+
+.avatar {
+  margin: 75px 85px;
+  border: 7px solid #fecb02;
+  border-radius: 50%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 75px;
+  padding: 0;
+  margin: 0;
+}
+
+.navi-list {
+  padding: 55px 0 5px 0;
+  font-size: 15px;
+  color: #9b9b9b;
+}
+
+.navi-link {
+  padding: 0 7px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #9b9b9b;
+  transition: color 0.5s ease;
+}
+
+.navi-link:hover {
+  color: #000000;
+}
+
+.name-profession-box {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 180px;
+  padding: 52px 40px;
+  border-left: 14px solid #fecb02;
+  background-color: #ebebeb;
+}
+
+.main-aside-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  width: 650px;
+  background-color: #ffffff;
+}
+
+.aside {
+  width: 350px;
+  background-color: #1b1e2f;
+}
+
+.section-title-left {
+  position: relative;
+  padding: 6px 30px;
+  border-left: 14px solid #fecb02;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: rgba(241, 241, 241, 0.1);
+}
+
+.section-title-left::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.1);
+}
+
+.section-title-right {
+  border-left: 14px solid #fecb02;
+  padding: 6px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #f1f1f1;
+}
+
+.contacts {
+  background-color: #1b1e2f;
+  color: #ffffff;
+}
+
+.education {
+  background-color: #ffffff;
+}
+
+.languages {
+  background-color: #1b1e2f;
+  color: #ffffff;
+}
+
+.projects {
+  background-color: #1b1e2f;
+  color: #ffffff;
+}
+
+.summary {
+  background-color: #ffffff;
+}
+
+.right-side-text {
+  padding: 10px 40px 25px 54px;
+}
+
+.left-side-text {
+  padding: 10px 30px 25px 60px;
+}
+
+.experience {
+  background-color: #ffffff;
+}
+
+.skills {
+  background-color: #1b1e2f;
+  color: #ffffff;
+}
+
+.code-example {
+  background-color: #ffffff;
+}
+
+.code {
+  padding: 0px;
+  margin: 20px;
+  font-size: 14px;
+  background-color: #ebebeb;
+}
+
+.surname {
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profession {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.institution {
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.occupation {
+  font-style: italic;
+  text-transform: none;
+  line-height: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  background-color: #fecb02;
+}
+
+.github-logo {
+  margin: 0 10px 0 20px;
+  transition: transform 0.5s ease;
+}
+
+.github-logo:hover {
+  transform: scale(1.05);
+}
+
+.my-github {
+  margin: 0 330px 0 0px; 
+  transition: text-shadow 0.5s ease;
+}
+
+.my-github:hover {
+  text-shadow: 2px 2px 3px #00000050;
+}
+
+.year {
+  margin: 0 300px 0 0;
+}
+
+.rss-logo {
+  margin: 0 20px 0 65px;
+  transition: transform 0.5s ease;
+}
+
+.rss-logo:hover {
+  transform: scale(1.05);
+}
+
+.scale-img {
+  padding: 5px 0 8px 0;
+}
+
+.black-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.white-link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.5s ease;
+}
+
+.white-link:hover {
+  color: #fecb02;
+}
+
+.codewars-link {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.5s ease;
+}
+
+.codewars-link:hover {
+  color: #b30000;
+}
