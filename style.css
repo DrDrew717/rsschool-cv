@@ -14,7 +14,7 @@ body {
 
 h1 {
   padding: 0;
-  margin: 0 0 5px 0;
+  margin: 2px 0 5px 0;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -47,8 +47,7 @@ strong {
 .container {
   display: flex;
   flex-direction: column;
-  min-width: 1000px;
-  max-width: 1000px;
+  width: 1000px;
   margin: 20px auto;
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.33);
 }
@@ -60,10 +59,7 @@ strong {
   background-color: #ffffff;
 }
 
-.header-left-side{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+.header-left-side {
   width: 350px;
   height: 330px;
   background-color: #1b1e2f;
@@ -74,6 +70,12 @@ strong {
   flex-direction: column;
   width: 650px;
   height: 330px;
+}
+
+.avatar {
+  margin: 75px 85px;
+  border: 7px solid #fecb02;
+  border-radius: 50%;
 }
 
 .navigation {
@@ -98,7 +100,7 @@ strong {
   font-weight: 300;
   text-decoration: none;
   color: #9b9b9b;
-  transition: 0.7s ease;
+  transition: color 0.5s ease;
 }
 
 .navi-link:hover {
@@ -193,12 +195,6 @@ strong {
   background-color: #ffffff;
 }
 
-.avatar {
-  margin: 20px auto;
-  border: 7px solid #fecb02;
-  border-radius: 50%;
-}
-
 .code {
   padding: 0px;
   margin: 20px;
@@ -214,6 +210,8 @@ strong {
 }
 
 .profession {
+  padding: 0;
+  margin: 0;
   font-weight: 300;
   font-size: 20px;
   text-transform: uppercase;
@@ -241,7 +239,7 @@ strong {
 
 .github-logo {
   margin: 0 10px 0 20px;
-  transition: 0.7s ease;
+  transition: scale 0.5s ease;
 }
 
 .github-logo:hover {
@@ -250,7 +248,7 @@ strong {
 
 .my-github {
   margin: 0 330px 0 0px; 
-  transition: 0.7s ease;
+  transition: text-shadow 0.5s ease;
 }
 
 .my-github:hover {
@@ -263,7 +261,7 @@ strong {
 
 .rss-logo {
   margin: 0 20px 0 65px;
-  transition: 0.7s ease;
+  transition: scale 0.5s ease;
 }
 
 .rss-logo:hover {
@@ -282,7 +280,7 @@ strong {
 .white-link {
   text-decoration: none;
   color: #ffffff;
-  transition: 0.7s ease;
+  transition: color 0.5s ease;
 }
 
 .white-link:hover {
@@ -292,7 +290,7 @@ strong {
 .codewars-link {
   text-decoration: none;
   color: #000000;
-  transition: 0.7s ease;
+  transition: color 0.5s ease;
 }
 
 .codewars-link:hover {
